@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRM Suite Automation]">
+  <test name="CRM Test(failed)">
+    <classes>
+      <class name="com.test.Logintest">
+        <methods>
+          <include name="Setup"/>
+          <include name="validateTitle"/>
+          <include name="validateLogin"/>
+        </methods>
+      </class> <!-- com.test.Logintest -->
+      <class name="com.test.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="clickOnContactsLinkTest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.test.HomePageTest -->
+    </classes>
+  </test> <!-- CRM Test(failed) -->
+</suite> <!-- Failed suite [CRM Suite Automation] -->

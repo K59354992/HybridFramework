@@ -1,0 +1,8 @@
+<suite name="CRM Suite Automation">
+	<test name="CRM Test">
+		<classes>
+			<class name="com.test.Logintest" />
+			<class name="com.test.HomePageTest" />
+		</classes>
+	</test>
+</suite>
