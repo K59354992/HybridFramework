@@ -37,7 +37,7 @@ public class Logintest extends TestBase {
 		String Title = driver.getTitle();
 		Assert.assertEquals(Title, "CRM");
 		Thread.sleep(5000);
-		System.out.println("Test Passed");
+		System.out.println("Test Success");
 	}
 	
 	
